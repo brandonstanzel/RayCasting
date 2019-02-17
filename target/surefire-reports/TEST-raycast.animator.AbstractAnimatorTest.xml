@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite tests="20" failures="0" name="raycast.animator.AbstractAnimatorTest" time="0.198" errors="0" skipped="0">
+  <properties>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_201.jdk/Contents/Home/jre/lib"/>
+    <property name="java.vm.version" value="25.201-b09"/>
+    <property name="gopherProxySet" value="false"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="path.separator" value=":"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="user.country" value="CA"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value="unknown"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="/Users/baphucnguyen/NetBeansProjects/RayCast1"/>
+    <property name="java.runtime.version" value="1.8.0_201-b09"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.CGraphicsEnvironment"/>
+    <property name="java.endorsed.dirs" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_201.jdk/Contents/Home/jre/lib/endorsed"/>
+    <property name="os.arch" value="x86_64"/>
+    <property name="java.io.tmpdir" value="/var/folders/wk/g68qstj90g5gkr2z9d0_p0km0000gn/T/"/>
+    <property name="line.separator" value="
+"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="os.name" value="Mac OS X"/>
+    <property name="maven.ext.class.path" value="/Applications/NetBeans/NetBeans 8.2.app/Contents/Resources/NetBeans/java/maven-nblib/netbeans-eventspy.jar"/>
+    <property name="classworlds.conf" value="/Applications/NetBeans/NetBeans 8.2.app/Contents/Resources/NetBeans/java/maven/bin/m2.conf"/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.library.path" value="/Users/baphucnguyen/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="10.14.2"/>
+    <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="user.home" value="/Users/baphucnguyen"/>
+    <property name="user.timezone" value="America/Toronto"/>
+    <property name="java.awt.printerjob" value="sun.lwawt.macosx.CPrinterJob"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="user.name" value="baphucnguyen"/>
+    <property name="java.class.path" value="/Applications/NetBeans/NetBeans 8.2.app/Contents/Resources/NetBeans/java/maven/boot/plexus-classworlds-2.4.jar"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.home" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_201.jdk/Contents/Home/jre"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher -Dmaven.ext.class.path=/Applications/NetBeans/NetBeans 8.2.app/Contents/Resources/NetBeans/java/maven-nblib/netbeans-eventspy.jar test"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.language" value="en"/>
+    <property name="awt.toolkit" value="sun.lwawt.macosx.LWCToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="1.8.0_201"/>
+    <property name="java.ext.dirs" value="/Users/baphucnguyen/Library/Java/Extensions:/Library/Java/JavaVirtualMachines/jdk1.8.0_201.jdk/Contents/Home/jre/lib/ext:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java"/>
+    <property name="sun.boot.class.path" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_201.jdk/Contents/Home/jre/lib/resources.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_201.jdk/Contents/Home/jre/lib/rt.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_201.jdk/Contents/Home/jre/lib/sunrsasign.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_201.jdk/Contents/Home/jre/lib/jsse.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_201.jdk/Contents/Home/jre/lib/jce.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_201.jdk/Contents/Home/jre/lib/charsets.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_201.jdk/Contents/Home/jre/lib/jfr.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_201.jdk/Contents/Home/jre/classes"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="maven.home" value="/Applications/NetBeans/NetBeans 8.2.app/Contents/Resources/NetBeans/java/maven"/>
+    <property name="file.separator" value="/"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeBig"/>
+    <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="sun.cpu.isalist" value=""/>
+  </properties>
+  <testcase classname="raycast.animator.AbstractAnimatorTest" name="testIntersetion[Test 0: rsx=100 rsy=100 rex=200 rey=100 ssx=100 ssy=100 sex=100 sey=200 intersects=true xpoint=100 ypoint=100 ray=0]" time="0.111"/>
+  <testcase classname="raycast.animator.AbstractAnimatorTest" name="testIntersetion[Test 1: rsx=100 rsy=100 rex=200 rey=100 ssx=150 ssy=100 sex=150 sey=200 intersects=true xpoint=150 ypoint=100 ray=0.5]" time="0"/>
+  <testcase classname="raycast.animator.AbstractAnimatorTest" name="testIntersetion[Test 2: rsx=100 rsy=100 rex=200 rey=100 ssx=200 ssy=100 sex=200 sey=200 intersects=true xpoint=200 ypoint=100 ray=1]" time="0"/>
+  <testcase classname="raycast.animator.AbstractAnimatorTest" name="testIntersetion[Test 3: rsx=200 rsy=100 rex=100 rey=100 ssx=100 ssy=100 sex=100 sey=200 intersects=true xpoint=100 ypoint=100 ray=1]" time="0"/>
+  <testcase classname="raycast.animator.AbstractAnimatorTest" name="testIntersetion[Test 4: rsx=200 rsy=100 rex=100 rey=100 ssx=150 ssy=100 sex=150 sey=200 intersects=true xpoint=150 ypoint=100 ray=0.5]" time="0"/>
+  <testcase classname="raycast.animator.AbstractAnimatorTest" name="testIntersetion[Test 5: rsx=200 rsy=100 rex=100 rey=100 ssx=200 ssy=100 sex=200 sey=200 intersects=true xpoint=200 ypoint=100 ray=0]" time="0"/>
+  <testcase classname="raycast.animator.AbstractAnimatorTest" name="testIntersetion[Test 6: rsx=100 rsy=100 rex=200 rey=100 ssx=100 ssy=150 sex=100 sey=200 intersects=false xpoint=0 ypoint=0 ray=0]" time="0"/>
+  <testcase classname="raycast.animator.AbstractAnimatorTest" name="testIntersetion[Test 7: rsx=100 rsy=100 rex=200 rey=100 ssx=150 ssy=150 sex=150 sey=200 intersects=false xpoint=0 ypoint=0 ray=0]" time="0"/>
+  <testcase classname="raycast.animator.AbstractAnimatorTest" name="testIntersetion[Test 8: rsx=100 rsy=100 rex=200 rey=100 ssx=200 ssy=150 sex=200 sey=200 intersects=false xpoint=0 ypoint=0 ray=0]" time="0"/>
+  <testcase classname="raycast.animator.AbstractAnimatorTest" name="testIntersetion[Test 9: rsx=100 rsy=100 rex=200 rey=100 ssx=100 ssy=150 sex=200 sey=150 intersects=false xpoint=0 ypoint=0 ray=0]" time="0"/>
+  <testcase classname="raycast.animator.AbstractAnimatorTest" name="testIntersetion[Test 10: rsx=200 rsy=100 rex=100 rey=100 ssx=100 ssy=150 sex=100 sey=200 intersects=false xpoint=0 ypoint=0 ray=0]" time="0"/>
+  <testcase classname="raycast.animator.AbstractAnimatorTest" name="testIntersetion[Test 11: rsx=200 rsy=100 rex=100 rey=100 ssx=150 ssy=150 sex=150 sey=200 intersects=false xpoint=0 ypoint=0 ray=0]" time="0"/>
+  <testcase classname="raycast.animator.AbstractAnimatorTest" name="testIntersetion[Test 12: rsx=200 rsy=100 rex=100 rey=100 ssx=200 ssy=150 sex=200 sey=200 intersects=false xpoint=0 ypoint=0 ray=0]" time="0"/>
+  <testcase classname="raycast.animator.AbstractAnimatorTest" name="testIntersetion[Test 13: rsx=200 rsy=100 rex=100 rey=100 ssx=100 ssy=150 sex=200 sey=150 intersects=false xpoint=0 ypoint=0 ray=0]" time="0"/>
+  <testcase classname="raycast.animator.AbstractAnimatorTest" name="testIntersetion[Test 14: rsx=100 rsy=100 rex=150 rey=100 ssx=100 ssy=100 sex=100 sey=200 intersects=true xpoint=100 ypoint=100 ray=0]" time="0"/>
+  <testcase classname="raycast.animator.AbstractAnimatorTest" name="testIntersetion[Test 15: rsx=100 rsy=100 rex=150 rey=100 ssx=150 ssy=100 sex=150 sey=200 intersects=true xpoint=150 ypoint=100 ray=1]" time="0.001"/>
+  <testcase classname="raycast.animator.AbstractAnimatorTest" name="testIntersetion[Test 16: rsx=100 rsy=100 rex=150 rey=100 ssx=200 ssy=100 sex=200 sey=200 intersects=true xpoint=200 ypoint=100 ray=2]" time="0"/>
+  <testcase classname="raycast.animator.AbstractAnimatorTest" name="testIntersetion[Test 17: rsx=150 rsy=100 rex=100 rey=100 ssx=100 ssy=100 sex=100 sey=200 intersects=true xpoint=100 ypoint=100 ray=1]" time="0"/>
+  <testcase classname="raycast.animator.AbstractAnimatorTest" name="testIntersetion[Test 18: rsx=150 rsy=100 rex=100 rey=100 ssx=150 ssy=100 sex=150 sey=200 intersects=true xpoint=150 ypoint=100 ray=0]" time="0"/>
+  <testcase classname="raycast.animator.AbstractAnimatorTest" name="testIntersetion[Test 19: rsx=150 rsy=100 rex=100 rey=100 ssx=200 ssy=100 sex=200 sey=200 intersects=false xpoint=0 ypoint=0 ray=0]" time="0"/>
+</testsuite>
