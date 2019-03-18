@@ -1,5 +1,6 @@
 package raycast;
 
+import raycast.animator.StaticShapes;
 import java.util.List;
 
 import javafx.application.Application;
@@ -115,7 +116,7 @@ public class RayCast extends Application{
 	@Override
 	public void init() throws Exception{
 		//Initialize the animators with FXCollections.observableArrayList and pass to it a new TextAnimator
-                animators = FXCollections.observableArrayList(new TextAnimator());
+                animators = FXCollections.observableArrayList(new TextAnimator(), new StaticShapes());
 		//initialize the board object
                 board =  new CanvasMap();
 		//create two ToolBar objects and store createStatusBar() and createOptionsBar() in each
@@ -138,6 +139,8 @@ public class RayCast extends Application{
 		
 		//loop through all animators and setCanvas as board
                 animators.forEach( a -> a.setCanvas( board));
+                
+                board.addSampleShapes();
 	}
 
 	/**
@@ -169,7 +172,8 @@ public class RayCast extends Application{
 		primaryStage.show();
 		//select first index of animatorsBox as start,
 		//this will also sets the new animator as the lambda we setup will be triggered
-		animatorsBox.getSelectionModel().select( 0);
+		//animatorsBox.getSelectionModel().select(0);
+                animatorsBox.getSelectionModel().select(1);
 	}
 
 	/**
@@ -190,6 +194,8 @@ public class RayCast extends Application{
                 Button startButton = createButton("Start", (event) -> board.start());
 		//use the createButton method and create a start button with lambda that calls board.stop()
                 Button stopButton = createButton("Stop", (event) -> board.stop());
+                
+//                Button randomShape = createButton("Random Shape", (event) -> board.randomShapes());
 		//create 2 Pane object called filler1 and filler2
                 Pane filler1 = new Pane();
                 Pane filler2 = new Pane();

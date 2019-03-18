@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="20" failures="0" name="raycast.animator.AbstractAnimatorTest" time="0.198" errors="0" skipped="0">
+<testsuite tests="20" failures="0" name="raycast.animator.AbstractAnimatorTest" time="0.201" errors="0" skipped="0">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_201.jdk/Contents/Home/jre/lib"/>
@@ -44,7 +44,7 @@
     <property name="java.vm.specification.version" value="1.8"/>
     <property name="sun.arch.data.model" value="64"/>
     <property name="java.home" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_201.jdk/Contents/Home/jre"/>
-    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher -Dmaven.ext.class.path=/Applications/NetBeans/NetBeans 8.2.app/Contents/Resources/NetBeans/java/maven-nblib/netbeans-eventspy.jar test"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher -Dmaven.ext.class.path=/Applications/NetBeans/NetBeans 8.2.app/Contents/Resources/NetBeans/java/maven-nblib/netbeans-eventspy.jar clean install"/>
     <property name="java.specification.vendor" value="Oracle Corporation"/>
     <property name="user.language" value="en"/>
     <property name="awt.toolkit" value="sun.lwawt.macosx.LWCToolkit"/>
@@ -62,7 +62,7 @@
     <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="sun.cpu.isalist" value=""/>
   </properties>
-  <testcase classname="raycast.animator.AbstractAnimatorTest" name="testIntersetion[Test 0: rsx=100 rsy=100 rex=200 rey=100 ssx=100 ssy=100 sex=100 sey=200 intersects=true xpoint=100 ypoint=100 ray=0]" time="0.111"/>
+  <testcase classname="raycast.animator.AbstractAnimatorTest" name="testIntersetion[Test 0: rsx=100 rsy=100 rex=200 rey=100 ssx=100 ssy=100 sex=100 sey=200 intersects=true xpoint=100 ypoint=100 ray=0]" time="0.114"/>
   <testcase classname="raycast.animator.AbstractAnimatorTest" name="testIntersetion[Test 1: rsx=100 rsy=100 rex=200 rey=100 ssx=150 ssy=100 sex=150 sey=200 intersects=true xpoint=150 ypoint=100 ray=0.5]" time="0"/>
   <testcase classname="raycast.animator.AbstractAnimatorTest" name="testIntersetion[Test 2: rsx=100 rsy=100 rex=200 rey=100 ssx=200 ssy=100 sex=200 sey=200 intersects=true xpoint=200 ypoint=100 ray=1]" time="0"/>
   <testcase classname="raycast.animator.AbstractAnimatorTest" name="testIntersetion[Test 3: rsx=200 rsy=100 rex=100 rey=100 ssx=100 ssy=100 sex=100 sey=200 intersects=true xpoint=100 ypoint=100 ray=1]" time="0"/>
